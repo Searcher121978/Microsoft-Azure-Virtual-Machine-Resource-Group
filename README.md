@@ -11,5 +11,5 @@ Part 1 (Create our Resources)
    a. While creating the VM, select the previously created Resource Group and Vnet
 6. Observe Your Virtual Network within Network Watcher
 
-<h1><a href="https://www.youtube.com/watch?v=cE1FfOh2H_k">Microsoft-Azure-Virtual-Machine-Resource-Group</a>☺</h1>
+<h1><a href="https://www.youtube.com/watch?v=cE1FfOh2H_k">Microsoft-Azure-Virtual-Machine-Resource-Group</a>
 
