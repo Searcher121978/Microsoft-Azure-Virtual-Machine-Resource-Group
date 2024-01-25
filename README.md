@@ -1,7 +1,10 @@
 # Microsoft-Azure-Virtual-Machine-Resource-Group
 Part 1 (Create our Resources)
-1. Create a Resource Group
-2. Create a Windows 10 Virtual Machine (VM)
+1. Create a Resource Group-A resource group is a container that holds related resources for an Azure solution. The resource group can include all the resources for the solution or only those you want to manage as a group.
+   
+[https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/media/manage-resource-groups-portal/manage-resource-groups-add-group.png#lightbox]
+
+3. Create a Windows 10 Virtual Machine (VM)
 
    a. While creating the VM, select the previously created Resource Group
    
