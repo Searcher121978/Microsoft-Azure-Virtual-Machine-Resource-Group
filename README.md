@@ -1,5 +1,40 @@
-# Microsoft-Azure-Virtual-Machine-Resource-Group
-Part 1 (Create our Resources)
+# Microsoft-Azure-Virtual Machine (VM)
+Part 1 (Create a Virtual Machine) Azure virtual machines (VMs) can be created through the Azure portal. This method provides a browser-based user interface to create VMs and their associated resources.
+
+1. Sign into Azure portal.
+2. Enter virtual machines in the search.
+3. Under Services, select Virtual Machines.
+4. On the Virtual Machines page, select Create and then Azure virtual machine. The Create a Virtual Machine page opens.
+5. Under Instance details, enter myVM for the Virtual machine name and choose Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2 for the Image. Leave the other defaults.
+
+![image](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/media/quick-create-portal/instance-details.png#lightbox)
+
+On the right side, you see an example summary of the estimated costs. This updates as you select options that affect the cost, such as choosing Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2 for your Image.
+
+![image](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/media/quick-create-portal/windows-estimated-monthly-cost.png)
+
+6. Under Administrator account, provide a username, such as azureuser and a password. The password must be at least 12 characters long and meet the defined complexity requirements.
+
+![image](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/media/quick-create-portal/administrator-account.png)
+
+7. Under Inbound port rules, choose Allow selected ports and then select RDP (3389) and HTTP (80) from the drop-down.
+
+![image](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/media/quick-create-portal/inbound-port-rules.png)
+
+8. Leave the remaining defaults and then select the Review + create button at the bottom of the page.
+
+![image](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/media/quick-create-portal/review-create.png)
+
+9. After validation runs, select the Create button at the bottom of the page.
+
+![image](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/media/quick-create-portal/validation.png#lightbox) 
+
+10. After deployment is complete, select Go to resource.
+
+![image](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/media/quick-create-portal/next-steps.png) 
+
+# Microsoft-Azure-Resource-Group
+Part 2 (Create our Resources)
 Create a Resource Group-A resource group is a container that holds related resources for an Azure solution. The resource group can include all the resources for the solution or only those you want to manage as a group.
 
 1. Select Resource groups.
